@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require('express');
-const supabase = require('./supabase');
+const supabase = require('../supabase');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
